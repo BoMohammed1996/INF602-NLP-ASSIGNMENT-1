@@ -1,0 +1,1581 @@
+[
+    {
+        "new_text": "There are 7 crayons in the drawer and 6 crayons on the desk . Sam placed 4 crayons and 8 scissors on the desk . How many crayons are now there in total ?",
+        "num_list": [
+            7.0,
+            6.0,
+            4.0,
+            8.0
+        ],
+        "sQuestion": "There are 7 crayons in the drawer and 6 crayons on the desk . Sam placed 4 crayons and 8 scissors on the desk . How many crayons are now there in total ? ",
+        "num_pos": [
+            2,
+            8,
+            16,
+            19
+        ],
+        "norm_mid_equ": "X = temp_a + temp_b + temp_c",
+        "lEquations": [
+            "X = 7 + 6 + 4"
+        ],
+        "norm_op_equ": "X = temp_a temp_b <OP> temp_c <OP>",
+        "mid_op_equ": "X = temp_a <OP> temp_b <OP> temp_c",
+        "norm_post_equ": "X = temp_a temp_b + temp_c +",
+        "post_equ": "X = temp_a temp_b + temp_c +",
+        "iIndex": 349,
+        "new_equation": "X = 7 + 6 + 4",
+        "template_equ": "X = temp_a + temp_b + temp_c",
+        "have_constant": false,
+        "type_str": "legal",
+        "equation_layer": [
+            [
+                "a",
+                "b",
+                "+"
+            ],
+            [
+                "m_1",
+                "c",
+                "+"
+            ]
+        ],
+        "answer": "17",
+        "text": "There are temp_a crayons in the drawer and temp_b crayons on the desk . Sam placed temp_c crayons and temp_d scissors on the desk . How many crayons are now there in total ?"
+    },
+    {
+        "new_text": "A pet store had 36 siamese cats and 18 house cats . During a sale they sold 26 cats . How many cats do they have left ?",
+        "num_list": [
+            36.0,
+            18.0,
+            26.0
+        ],
+        "sQuestion": " A pet store had 36 siamese cats and 18 house cats. During a sale they sold 26 cats. How many cats do they have left? ",
+        "num_pos": [
+            4,
+            8,
+            17
+        ],
+        "norm_mid_equ": "X = ( ( temp_a + temp_b ) - temp_c )",
+        "lEquations": [
+            "X=((36.0+18.0)-26.0)"
+        ],
+        "norm_op_equ": "X = temp_a temp_b <OP> temp_c <OP>",
+        "mid_op_equ": "X = ( ( temp_a <OP> temp_b ) <OP> temp_c )",
+        "norm_post_equ": "X = temp_a temp_b + temp_c -",
+        "post_equ": "X = temp_a temp_b + temp_c -",
+        "iIndex": 2310,
+        "new_equation": "X = ( ( 36.0 + 18.0 ) - 26.0 )",
+        "template_equ": "X = ( ( temp_a + temp_b ) - temp_c )",
+        "lAlignments": [
+            17,
+            37,
+            76
+        ],
+        "have_constant": false,
+        "type_str": "legal",
+        "equation_layer": [
+            [
+                "a",
+                "b",
+                "+"
+            ],
+            [
+                "m_1",
+                "c",
+                "-"
+            ]
+        ],
+        "answer": 28.0,
+        "text": "A pet store had temp_a siamese cats and temp_b house cats . During a sale they sold temp_c cats . How many cats do they have left ?"
+    },
+    {
+        "new_text": "Ezra drew a white line that was 7.666666666666667 inches long . Then he drew a blue line that was 3.3333333333333335 inches long . How much longer was the white line than the blue line ?",
+        "num_list": [
+            7.666666666666667,
+            3.3333333333333335
+        ],
+        "sQuestion": "Ezra drew a white line that was 7.666666666666667 inches long . Then he drew a blue line that was 3.3333333333333335 inches long . How much longer was the white line than the blue line ? ",
+        "num_pos": [
+            7,
+            19
+        ],
+        "norm_mid_equ": "X = temp_a - temp_b",
+        "lEquations": [
+            "X = 7.666666666666667 - 3.3333333333333335"
+        ],
+        "norm_op_equ": "X = temp_a temp_b <OP>",
+        "mid_op_equ": "X = temp_a <OP> temp_b",
+        "norm_post_equ": "X = temp_a temp_b -",
+        "post_equ": "X = temp_a temp_b -",
+        "iIndex": 251,
+        "new_equation": "X = 7.666666666666667 - 3.3333333333333335",
+        "template_equ": "X = temp_a - temp_b",
+        "have_constant": false,
+        "type_str": "legal",
+        "equation_layer": [
+            [
+                "a",
+                "b",
+                "-"
+            ]
+        ],
+        "answer": "4.333333333333333",
+        "text": "Ezra drew a white line that was temp_a inches long . Then he drew a blue line that was temp_b inches long . How much longer was the white line than the blue line ?"
+    },
+    {
+        "new_text": "Sandy grew 51 pumpkins . Mike grew 23 pumpkins . How many pumpkins did they grow in total ?",
+        "num_list": [
+            51.0,
+            23.0
+        ],
+        "sQuestion": "Sandy grew 51 pumpkins. Mike grew 23 pumpkins. How many pumpkins did they grow in total ?",
+        "num_pos": [
+            2,
+            7
+        ],
+        "norm_mid_equ": "x = temp_a + temp_b",
+        "lEquations": [
+            "51+23=x"
+        ],
+        "norm_op_equ": "x = temp_a temp_b <OP>",
+        "mid_op_equ": "x = temp_a <OP> temp_b",
+        "norm_post_equ": "x = temp_a temp_b +",
+        "post_equ": "x = temp_a temp_b +",
+        "iIndex": 2926,
+        "new_equation": "x = 51 + 23",
+        "template_equ": "x = temp_a + temp_b",
+        "have_constant": false,
+        "type_str": "legal",
+        "equation_layer": [
+            [
+                "a",
+                "b",
+                "+"
+            ]
+        ],
+        "answer": 74.0,
+        "text": "Sandy grew temp_a pumpkins . Mike grew temp_b pumpkins . How many pumpkins did they grow in total ?"
+    },
+    {
+        "new_text": "Misha has 34 dollars . How many dollars does she have to earn to have 47 dollars to buy a dog ?",
+        "num_list": [
+            34.0,
+            47.0
+        ],
+        "sQuestion": " Misha has 34 dollars. How many dollars does she have to earn to have 47 dollars to buy a dog?",
+        "num_pos": [
+            2,
+            15
+        ],
+        "norm_mid_equ": "X = ( temp_b - temp_a )",
+        "lEquations": [
+            "X=(47.0-34.0)"
+        ],
+        "norm_op_equ": "X = temp_b temp_a <OP>",
+        "mid_op_equ": "X = ( temp_b <OP> temp_a )",
+        "norm_post_equ": "X = temp_b temp_a -",
+        "post_equ": "X = temp_b temp_a -",
+        "iIndex": 3774,
+        "new_equation": "X = ( 47.0 - 34.0 )",
+        "template_equ": "X = ( temp_b - temp_a )",
+        "lAlignments": [
+            70,
+            11
+        ],
+        "have_constant": false,
+        "type_str": "legal",
+        "equation_layer": [
+            [
+                "a",
+                "b",
+                "-_rev"
+            ]
+        ],
+        "answer": 13.0,
+        "text": "Misha has temp_a dollars . How many dollars does she have to earn to have temp_b dollars to buy a dog ?"
+    },
+    {
+        "new_text": "I walked 2 miles in 1 hour for Relay for Life . If I maintained this pace for the 8 hours I walk , how many miles total will I walk ?",
+        "num_list": [
+            2.0,
+            1.0,
+            8.0
+        ],
+        "sQuestion": " I walked 2 miles in 1 hour for Relay for Life. If I maintained this pace for the 8 hours I walk, how many miles total will I walk?",
+        "num_pos": [
+            2,
+            5,
+            19
+        ],
+        "norm_mid_equ": "X = ( temp_a * temp_c )",
+        "lEquations": [
+            "X=(2.0*8.0)"
+        ],
+        "norm_op_equ": "X = temp_a temp_c <OP>",
+        "mid_op_equ": "X = ( temp_a <OP> temp_c )",
+        "norm_post_equ": "X = temp_a temp_c *",
+        "post_equ": "X = temp_a temp_c *",
+        "iIndex": 3883,
+        "new_equation": "X = ( 2.0 * 8.0 )",
+        "template_equ": "X = ( temp_a * temp_c )",
+        "lAlignments": [
+            10,
+            82
+        ],
+        "have_constant": false,
+        "type_str": "legal",
+        "equation_layer": [
+            [
+                "a",
+                "c",
+                "*"
+            ]
+        ],
+        "answer": 16.0,
+        "text": "I walked temp_a miles in temp_b hour for Relay for Life . If I maintained this pace for the temp_c hours I walk , how many miles total will I walk ?"
+    },
+    {
+        "new_text": "Isabel baked 3 brownies , but needed 5 total for her party . If she used 5 cups of flour on each one , how much cups of flour does she still need ?",
+        "num_list": [
+            3.0,
+            5.0,
+            5.0
+        ],
+        "sQuestion": " Isabel baked 3 brownies, but needed 5 total for her party. If she used 5 cups of flour on each one, how much cups of flour does she still need? ",
+        "num_pos": [
+            2,
+            7,
+            16
+        ],
+        "norm_mid_equ": "X = ( temp_b * ( temp_b - temp_a ) )",
+        "lEquations": [
+            "X=(5.0*(5.0-3.0))"
+        ],
+        "norm_op_equ": "X = temp_b temp_b temp_a <OP> <OP>",
+        "mid_op_equ": "X = ( temp_b <OP> ( temp_b <OP> temp_a ) )",
+        "norm_post_equ": "X = temp_b temp_b temp_a - *",
+        "post_equ": "X = temp_b temp_b temp_a - *",
+        "iIndex": 2718,
+        "new_equation": "X = ( 5.0 * ( 5.0 - 3.0 ) )",
+        "template_equ": "X = ( temp_b * ( temp_b - temp_a ) )",
+        "lAlignments": [
+            72,
+            37,
+            14
+        ],
+        "have_constant": false,
+        "type_str": "legal",
+        "equation_layer": [
+            [
+                "a",
+                "b",
+                "-_rev"
+            ],
+            [
+                "m_1",
+                "b",
+                "*"
+            ]
+        ],
+        "answer": 10.0,
+        "text": "Isabel baked temp_a brownies , but needed temp_b total for her party . If she used temp_c cups of flour on each one , how much cups of flour does she still need ?"
+    },
+    {
+        "new_text": "An oil pipe in the sea broke . Before engineers started to fix the pipe , 6522 liters of oil leaked into the water . While the engineers worked , the pipe leaked 5165 more liters of oil . In all , how many liters of oil leaked into the water ?",
+        "num_list": [
+            6522.0,
+            5165.0
+        ],
+        "sQuestion": "An oil pipe in the sea broke. Before engineers started to fix the pipe, 6522 liters of oil leaked into the water. While the engineers worked, the pipe leaked 5165 more liters of oil. In all, how many liters of oil leaked into the water?",
+        "num_pos": [
+            16,
+            33
+        ],
+        "norm_mid_equ": "x = temp_a + temp_b",
+        "lEquations": [
+            "6522+5165=x"
+        ],
+        "norm_op_equ": "x = temp_a temp_b <OP>",
+        "mid_op_equ": "x = temp_a <OP> temp_b",
+        "norm_post_equ": "x = temp_a temp_b +",
+        "post_equ": "x = temp_a temp_b +",
+        "iIndex": 3081,
+        "new_equation": "x = 6522 + 5165",
+        "template_equ": "x = temp_a + temp_b",
+        "have_constant": false,
+        "type_str": "legal",
+        "equation_layer": [
+            [
+                "a",
+                "b",
+                "+"
+            ]
+        ],
+        "answer": 11687.0,
+        "text": "An oil pipe in the sea broke . Before engineers started to fix the pipe , temp_a liters of oil leaked into the water . While the engineers worked , the pipe leaked temp_b more liters of oil . In all , how many liters of oil leaked into the water ?"
+    },
+    {
+        "new_text": "Adam has $ 5.00 to buy an airplane that costs $ 4.28 . How much change will Adam get ?",
+        "num_list": [
+            5.0,
+            4.28
+        ],
+        "sQuestion": "Adam has $5.00 to buy an airplane that costs $4.28. How much change will Adam get?",
+        "num_pos": [
+            3,
+            11
+        ],
+        "norm_mid_equ": "x = temp_a - temp_b",
+        "lEquations": [
+            "5.00-4.28=x"
+        ],
+        "norm_op_equ": "x = temp_a temp_b <OP>",
+        "mid_op_equ": "x = temp_a <OP> temp_b",
+        "norm_post_equ": "x = temp_a temp_b -",
+        "post_equ": "x = temp_a temp_b -",
+        "iIndex": 3302,
+        "new_equation": "x = 5.00 - 4.28",
+        "template_equ": "x = temp_a - temp_b",
+        "have_constant": false,
+        "type_str": "legal",
+        "equation_layer": [
+            [
+                "a",
+                "b",
+                "-"
+            ]
+        ],
+        "answer": 0.72,
+        "text": "Adam has $ temp_a to buy an airplane that costs $ temp_b . How much change will Adam get ?"
+    },
+    {
+        "new_text": "There are 36 bananas in Diane 's banana collection . If the bananas are organized into 6 groups , how big is each group ?",
+        "num_list": [
+            36.0,
+            6.0
+        ],
+        "sQuestion": "There are 36 bananas in Diane's banana collection. If the bananas are organized into 6 groups, how big is each group?",
+        "num_pos": [
+            2,
+            16
+        ],
+        "norm_mid_equ": "X = ( temp_a / temp_b )",
+        "lEquations": [
+            "X=(36.0/6.0)"
+        ],
+        "norm_op_equ": "X = temp_a temp_b <OP>",
+        "mid_op_equ": "X = ( temp_a <OP> temp_b )",
+        "norm_post_equ": "X = temp_a temp_b /",
+        "post_equ": "X = temp_a temp_b /",
+        "iIndex": 3518,
+        "new_equation": "X = ( 36.0 / 6.0 )",
+        "template_equ": "X = ( temp_a / temp_b )",
+        "lAlignments": [
+            10,
+            85
+        ],
+        "have_constant": false,
+        "type_str": "legal",
+        "equation_layer": [
+            [
+                "a",
+                "b",
+                "/"
+            ]
+        ],
+        "answer": 6.0,
+        "text": "There are temp_a bananas in Diane 's banana collection . If the bananas are organized into temp_b groups , how big is each group ?"
+    },
+    {
+        "new_text": "A cake recipe requires 0.6 cup of sugar for the frosting and 0.2 cup of sugar for the cake . How much sugar is that altogether ?",
+        "num_list": [
+            0.6,
+            0.2
+        ],
+        "sQuestion": " A cake recipe requires 0.6 cup of sugar for the frosting and 0.2 cup of sugar for the cake. How much sugar is that altogether?",
+        "num_pos": [
+            4,
+            12
+        ],
+        "norm_mid_equ": "X = ( temp_a + temp_b )",
+        "lEquations": [
+            "X=(0.6+0.2)"
+        ],
+        "norm_op_equ": "X = temp_a temp_b <OP>",
+        "mid_op_equ": "X = ( temp_a <OP> temp_b )",
+        "norm_post_equ": "X = temp_a temp_b +",
+        "post_equ": "X = temp_a temp_b +",
+        "iIndex": 3907,
+        "new_equation": "X = ( 0.6 + 0.2 )",
+        "template_equ": "X = ( temp_a + temp_b )",
+        "lAlignments": [
+            24,
+            62
+        ],
+        "have_constant": false,
+        "type_str": "legal",
+        "equation_layer": [
+            [
+                "a",
+                "b",
+                "+"
+            ]
+        ],
+        "answer": 0.8,
+        "text": "A cake recipe requires temp_a cup of sugar for the frosting and temp_b cup of sugar for the cake . How much sugar is that altogether ?"
+    },
+    {
+        "new_text": "There were a total of 323 football games in the season . The season is played for 17 months . How many football games were played each month , if each month has the same number of games ?",
+        "num_list": [
+            323.0,
+            17.0
+        ],
+        "sQuestion": "There were a total of 323 football games in the season. The season is played for 17 months. How many football games were played each month, if each month has the same number of games?",
+        "num_pos": [
+            5,
+            17
+        ],
+        "norm_mid_equ": "x = temp_a / temp_b",
+        "lEquations": [
+            "323/17=x"
+        ],
+        "norm_op_equ": "x = temp_a temp_b <OP>",
+        "mid_op_equ": "x = temp_a <OP> temp_b",
+        "norm_post_equ": "x = temp_a temp_b /",
+        "post_equ": "x = temp_a temp_b /",
+        "iIndex": 2957,
+        "new_equation": "x = 323 / 17",
+        "template_equ": "x = temp_a / temp_b",
+        "have_constant": false,
+        "type_str": "legal",
+        "equation_layer": [
+            [
+                "a",
+                "b",
+                "/"
+            ]
+        ],
+        "answer": 19.0,
+        "text": "There were a total of temp_a football games in the season . The season is played for temp_b months . How many football games were played each month , if each month has the same number of games ?"
+    },
+    {
+        "new_text": "Lana was unboxing some of her old winter clothes . She found 3 boxes of clothing and inside each box there were 3 scarves and 4 mittens . How many pieces of winter clothing did Lana have total ?",
+        "num_list": [
+            3.0,
+            3.0,
+            4.0
+        ],
+        "sQuestion": " Lana was unboxing some of her old winter clothes. She found 3 boxes of clothing and inside each box there were 3 scarves and 4 mittens. How many pieces of winter clothing did Lana have total? ",
+        "num_pos": [
+            12,
+            22,
+            25
+        ],
+        "norm_mid_equ": "X = ( temp_a * ( temp_a + temp_c ) )",
+        "lEquations": [
+            "X=(3.0*(3.0+4.0))"
+        ],
+        "norm_op_equ": "X = temp_a temp_a temp_c <OP> <OP>",
+        "mid_op_equ": "X = ( temp_a <OP> ( temp_a <OP> temp_c ) )",
+        "norm_post_equ": "X = temp_a temp_a temp_c + *",
+        "post_equ": "X = temp_a temp_a temp_c + *",
+        "iIndex": 2525,
+        "new_equation": "X = ( 3.0 * ( 3.0 + 4.0 ) )",
+        "template_equ": "X = ( temp_a * ( temp_a + temp_c ) )",
+        "lAlignments": [
+            61,
+            112,
+            126
+        ],
+        "have_constant": false,
+        "type_str": "legal",
+        "equation_layer": [
+            [
+                "a",
+                "c",
+                "+"
+            ],
+            [
+                "m_1",
+                "a",
+                "*"
+            ]
+        ],
+        "answer": 21.0,
+        "text": "Lana was unboxing some of her old winter clothes . She found temp_a boxes of clothing and inside each box there were temp_b scarves and temp_c mittens . How many pieces of winter clothing did Lana have total ?"
+    },
+    {
+        "new_text": "Alyssa 's cat had 8 kittens and 8 had spots . She gave 4 to her friends . How many kittens does she now have ?",
+        "num_list": [
+            8.0,
+            8.0,
+            4.0
+        ],
+        "sQuestion": "Alyssa 's cat had 8 kittens and 8 had spots . She gave 4 to her friends . How many kittens does she now have ? ",
+        "num_pos": [
+            4,
+            7,
+            13
+        ],
+        "norm_mid_equ": "X = temp_a - temp_c",
+        "lEquations": [
+            "X = 8 - 4"
+        ],
+        "norm_op_equ": "X = temp_a temp_c <OP>",
+        "mid_op_equ": "X = temp_a <OP> temp_c",
+        "norm_post_equ": "X = temp_a temp_c -",
+        "post_equ": "X = temp_a temp_c -",
+        "iIndex": 387,
+        "new_equation": "X = 8 - 4",
+        "template_equ": "X = temp_a - temp_c",
+        "have_constant": false,
+        "type_str": "legal",
+        "equation_layer": [
+            [
+                "a",
+                "c",
+                "-"
+            ]
+        ],
+        "answer": "4",
+        "text": "Alyssa 's cat had temp_a kittens and temp_b had spots . She gave temp_c to her friends . How many kittens does she now have ?"
+    },
+    {
+        "new_text": "While playing a trivia game , Frank answered 3 questions correct in the first half and 2 questions correct in the second half . If each question was worth 3 points , what was his final score ?",
+        "num_list": [
+            3.0,
+            2.0,
+            3.0
+        ],
+        "sQuestion": " While playing a trivia game, Frank answered 3 questions correct in the first half and 2 questions correct in the second half. If each question was worth 3 points, what was his final score? ",
+        "num_pos": [
+            8,
+            16,
+            29
+        ],
+        "norm_mid_equ": "X = ( temp_a * ( temp_a + temp_b ) )",
+        "lEquations": [
+            "X=(3.0*(3.0+2.0))"
+        ],
+        "norm_op_equ": "X = temp_a temp_a temp_b <OP> <OP>",
+        "mid_op_equ": "X = ( temp_a <OP> ( temp_a <OP> temp_b ) )",
+        "norm_post_equ": "X = temp_a temp_a temp_b + *",
+        "post_equ": "X = temp_a temp_a temp_b + *",
+        "iIndex": 2473,
+        "new_equation": "X = ( 3.0 * ( 3.0 + 2.0 ) )",
+        "template_equ": "X = ( temp_a * ( temp_a + temp_b ) )",
+        "lAlignments": [
+            154,
+            45,
+            87
+        ],
+        "have_constant": false,
+        "type_str": "legal",
+        "equation_layer": [
+            [
+                "a",
+                "b",
+                "+"
+            ],
+            [
+                "m_1",
+                "a",
+                "*"
+            ]
+        ],
+        "answer": 15.0,
+        "text": "While playing a trivia game , Frank answered temp_a questions correct in the first half and temp_b questions correct in the second half . If each question was worth temp_c points , what was his final score ?"
+    },
+    {
+        "new_text": "We ordered 21 pizzas . Each pizza has 8 slices . How many slices of pizza are there altogether ?",
+        "num_list": [
+            21.0,
+            8.0
+        ],
+        "sQuestion": "We ordered 21 pizzas. Each pizza has 8 slices. How many slices of pizza are there altogether?",
+        "num_pos": [
+            2,
+            8
+        ],
+        "norm_mid_equ": "x = temp_a * temp_b",
+        "lEquations": [
+            "21*8=x"
+        ],
+        "norm_op_equ": "x = temp_a temp_b <OP>",
+        "mid_op_equ": "x = temp_a <OP> temp_b",
+        "norm_post_equ": "x = temp_a temp_b *",
+        "post_equ": "x = temp_a temp_b *",
+        "iIndex": 3235,
+        "new_equation": "x = 21 * 8",
+        "template_equ": "x = temp_a * temp_b",
+        "have_constant": false,
+        "type_str": "legal",
+        "equation_layer": [
+            [
+                "a",
+                "b",
+                "*"
+            ]
+        ],
+        "answer": 168.0,
+        "text": "We ordered temp_a pizzas . Each pizza has temp_b slices . How many slices of pizza are there altogether ?"
+    },
+    {
+        "new_text": "There are 30 candies in Kathy 's candy collection . If the candies are organized into 10 groups , how big is each group ?",
+        "num_list": [
+            30.0,
+            10.0
+        ],
+        "sQuestion": "There are 30 candies in Kathy's candy collection. If the candies are organized into 10 groups, how big is each group?",
+        "num_pos": [
+            2,
+            16
+        ],
+        "norm_mid_equ": "X = ( temp_a / temp_b )",
+        "lEquations": [
+            "X=(30.0/10.0)"
+        ],
+        "norm_op_equ": "X = temp_a temp_b <OP>",
+        "mid_op_equ": "X = ( temp_a <OP> temp_b )",
+        "norm_post_equ": "X = temp_a temp_b /",
+        "post_equ": "X = temp_a temp_b /",
+        "iIndex": 3515,
+        "new_equation": "X = ( 30.0 / 10.0 )",
+        "template_equ": "X = ( temp_a / temp_b )",
+        "lAlignments": [
+            10,
+            84
+        ],
+        "have_constant": false,
+        "type_str": "legal",
+        "equation_layer": [
+            [
+                "a",
+                "b",
+                "/"
+            ]
+        ],
+        "answer": 3.0,
+        "text": "There are temp_a candies in Kathy 's candy collection . If the candies are organized into temp_b groups , how big is each group ?"
+    },
+    {
+        "new_text": "While shopping , Maria bought 35 green towels and 21 white towels . If she gave her mother 34 of them , how many towels did Maria end up with ?",
+        "num_list": [
+            35.0,
+            21.0,
+            34.0
+        ],
+        "sQuestion": " While shopping, Maria bought 35 green towels and 21 white towels. If she gave her mother 34 of them, how many towels did Maria end up with? ",
+        "num_pos": [
+            5,
+            9,
+            18
+        ],
+        "norm_mid_equ": "X = ( ( temp_a + temp_b ) - temp_c )",
+        "lEquations": [
+            "X=((35.0+21.0)-34.0)"
+        ],
+        "norm_op_equ": "X = temp_a temp_b <OP> temp_c <OP>",
+        "mid_op_equ": "X = ( ( temp_a <OP> temp_b ) <OP> temp_c )",
+        "norm_post_equ": "X = temp_a temp_b + temp_c -",
+        "post_equ": "X = temp_a temp_b + temp_c -",
+        "iIndex": 2318,
+        "new_equation": "X = ( ( 35.0 + 21.0 ) - 34.0 )",
+        "template_equ": "X = ( ( temp_a + temp_b ) - temp_c )",
+        "lAlignments": [
+            30,
+            50,
+            90
+        ],
+        "have_constant": false,
+        "type_str": "legal",
+        "equation_layer": [
+            [
+                "a",
+                "b",
+                "+"
+            ],
+            [
+                "m_1",
+                "c",
+                "-"
+            ]
+        ],
+        "answer": 22.0,
+        "text": "While shopping , Maria bought temp_a green towels and temp_b white towels . If she gave her mother temp_c of them , how many towels did Maria end up with ?"
+    },
+    {
+        "new_text": "Nancy has 9 five dollars bills .   How much money does she have ?",
+        "num_list": [
+            9.0
+        ],
+        "sQuestion": "Nancy has 9 five dollars bills.  How much money does she have ?",
+        "num_pos": [
+            2
+        ],
+        "norm_mid_equ": "x = temp_a * 5",
+        "lEquations": [
+            "9*5=x"
+        ],
+        "norm_op_equ": "x = temp_a 5 <OP>",
+        "mid_op_equ": "x = temp_a <OP> 5",
+        "norm_post_equ": "x = temp_a 5 *",
+        "post_equ": "x = temp_a 5 *",
+        "iIndex": 3005,
+        "new_equation": "x = 9 * 5",
+        "template_equ": "x = temp_a * 5",
+        "have_constant": true,
+        "type_str": "legal",
+        "equation_layer": [
+            [
+                "a",
+                "5.0",
+                "*"
+            ]
+        ],
+        "answer": 45.0,
+        "text": "Nancy has temp_a five dollars bills .   How much money does she have ?"
+    },
+    {
+        "new_text": "Clarence has 5 oranges . He gets 3 more from Joyce . Later , Clarence buys 9 Skittles at the store . How many oranges does Clarence have in all ?",
+        "num_list": [
+            5.0,
+            3.0,
+            9.0
+        ],
+        "sQuestion": "Clarence has 5 oranges. He gets 3 more from Joyce. Later, Clarence buys 9 Skittles at the store. How many oranges does Clarence have in all?",
+        "num_pos": [
+            2,
+            7,
+            16
+        ],
+        "norm_mid_equ": "X = ( temp_a + temp_b )",
+        "lEquations": [
+            "X=(5.0+3.0)"
+        ],
+        "norm_op_equ": "X = temp_a temp_b <OP>",
+        "mid_op_equ": "X = ( temp_a <OP> temp_b )",
+        "norm_post_equ": "X = temp_a temp_b +",
+        "post_equ": "X = temp_a temp_b +",
+        "iIndex": 3559,
+        "new_equation": "X = ( 5.0 + 3.0 )",
+        "template_equ": "X = ( temp_a + temp_b )",
+        "lAlignments": [
+            13,
+            32
+        ],
+        "have_constant": false,
+        "type_str": "legal",
+        "equation_layer": [
+            [
+                "a",
+                "b",
+                "+"
+            ]
+        ],
+        "answer": 8.0,
+        "text": "Clarence has temp_a oranges . He gets temp_b more from Joyce . Later , Clarence buys temp_c Skittles at the store . How many oranges does Clarence have in all ?"
+    },
+    {
+        "new_text": "A car company produced 3884 cars in North America and 2871 cars in Europe . How many cars is that in all ?",
+        "num_list": [
+            3884.0,
+            2871.0
+        ],
+        "sQuestion": "A car company produced 3884 cars in North America and 2871 cars in Europe. How many cars is that in all?",
+        "num_pos": [
+            4,
+            10
+        ],
+        "norm_mid_equ": "x = temp_a + temp_b",
+        "lEquations": [
+            "3884+2871=x"
+        ],
+        "norm_op_equ": "x = temp_a temp_b <OP>",
+        "mid_op_equ": "x = temp_a <OP> temp_b",
+        "norm_post_equ": "x = temp_a temp_b +",
+        "post_equ": "x = temp_a temp_b +",
+        "iIndex": 3082,
+        "new_equation": "x = 3884 + 2871",
+        "template_equ": "x = temp_a + temp_b",
+        "have_constant": false,
+        "type_str": "legal",
+        "equation_layer": [
+            [
+                "a",
+                "b",
+                "+"
+            ]
+        ],
+        "answer": 6755.0,
+        "text": "A car company produced temp_a cars in North America and temp_b cars in Europe . How many cars is that in all ?"
+    },
+    {
+        "new_text": "Jennifer starts with 7 apples . She finds another 74 . How many apples does Jennifer end with ?",
+        "num_list": [
+            7.0,
+            74.0
+        ],
+        "sQuestion": "Jennifer starts with 7 apples. She finds another 74. How many apples does Jennifer end with?",
+        "num_pos": [
+            3,
+            9
+        ],
+        "norm_mid_equ": "X = ( temp_a + temp_b )",
+        "lEquations": [
+            "X=(7.0+74.0)"
+        ],
+        "norm_op_equ": "X = temp_a temp_b <OP>",
+        "mid_op_equ": "X = ( temp_a <OP> temp_b )",
+        "norm_post_equ": "X = temp_a temp_b +",
+        "post_equ": "X = temp_a temp_b +",
+        "iIndex": 3460,
+        "new_equation": "X = ( 7.0 + 74.0 )",
+        "template_equ": "X = ( temp_a + temp_b )",
+        "lAlignments": [
+            21,
+            49
+        ],
+        "have_constant": false,
+        "type_str": "legal",
+        "equation_layer": [
+            [
+                "a",
+                "b",
+                "+"
+            ]
+        ],
+        "answer": 81.0,
+        "text": "Jennifer starts with temp_a apples . She finds another temp_b . How many apples does Jennifer end with ?"
+    },
+    {
+        "new_text": "Annie starts with 4 crayons . Matthew gives Annie 36 more . How many crayons does Annie end with ?",
+        "num_list": [
+            4.0,
+            36.0
+        ],
+        "sQuestion": "Annie starts with 4 crayons. Matthew gives Annie 36 more. How many crayons does Annie end with?",
+        "num_pos": [
+            3,
+            9
+        ],
+        "norm_mid_equ": "X = ( temp_a + temp_b )",
+        "lEquations": [
+            "X=(4.0+36.0)"
+        ],
+        "norm_op_equ": "X = temp_a temp_b <OP>",
+        "mid_op_equ": "X = ( temp_a <OP> temp_b )",
+        "norm_post_equ": "X = temp_a temp_b +",
+        "post_equ": "X = temp_a temp_b +",
+        "iIndex": 3394,
+        "new_equation": "X = ( 4.0 + 36.0 )",
+        "template_equ": "X = ( temp_a + temp_b )",
+        "lAlignments": [
+            18,
+            49
+        ],
+        "have_constant": false,
+        "type_str": "legal",
+        "equation_layer": [
+            [
+                "a",
+                "b",
+                "+"
+            ]
+        ],
+        "answer": 40.0,
+        "text": "Annie starts with temp_a crayons . Matthew gives Annie temp_b more . How many crayons does Annie end with ?"
+    },
+    {
+        "new_text": "Alec and his roommates ate 3.25 pints of ice cream on Friday night and 0.25 pint of ice cream on Saturday night . How many pints did they eat in all ?",
+        "num_list": [
+            3.25,
+            0.25
+        ],
+        "sQuestion": "Alec and his roommates ate 3.25 pints of ice cream on Friday night and 0.25 pint of ice cream on Saturday night . How many pints did they eat in all ? ",
+        "num_pos": [
+            5,
+            14
+        ],
+        "norm_mid_equ": "X = temp_a + temp_b",
+        "lEquations": [
+            "X = 3.25 + 0.25"
+        ],
+        "norm_op_equ": "X = temp_a temp_b <OP>",
+        "mid_op_equ": "X = temp_a <OP> temp_b",
+        "norm_post_equ": "X = temp_a temp_b +",
+        "post_equ": "X = temp_a temp_b +",
+        "iIndex": 248,
+        "new_equation": "X = 3.25 + 0.25",
+        "template_equ": "X = temp_a + temp_b",
+        "have_constant": false,
+        "type_str": "legal",
+        "equation_layer": [
+            [
+                "a",
+                "b",
+                "+"
+            ]
+        ],
+        "answer": "3.5",
+        "text": "Alec and his roommates ate temp_a pints of ice cream on Friday night and temp_b pint of ice cream on Saturday night . How many pints did they eat in all ?"
+    },
+    {
+        "new_text": "The schools debate team had 5 boys and 40 girls on it . If they were split into groups of 9 how many groups could they make ?",
+        "num_list": [
+            5.0,
+            40.0,
+            9.0
+        ],
+        "sQuestion": " The schools debate team had 5 boys and 40 girls on it. If they were split into groups of 9 how many groups could they make? ",
+        "num_pos": [
+            5,
+            8,
+            20
+        ],
+        "norm_mid_equ": "X = ( ( temp_a + temp_b ) / temp_c )",
+        "lEquations": [
+            "X=((5.0+40.0)/9.0)"
+        ],
+        "norm_op_equ": "X = temp_a temp_b <OP> temp_c <OP>",
+        "mid_op_equ": "X = ( ( temp_a <OP> temp_b ) <OP> temp_c )",
+        "norm_post_equ": "X = temp_a temp_b + temp_c /",
+        "post_equ": "X = temp_a temp_b + temp_c /",
+        "iIndex": 2613,
+        "new_equation": "X = ( ( 5.0 + 40.0 ) / 9.0 )",
+        "template_equ": "X = ( ( temp_a + temp_b ) / temp_c )",
+        "lAlignments": [
+            29,
+            40,
+            90
+        ],
+        "have_constant": false,
+        "type_str": "legal",
+        "equation_layer": [
+            [
+                "a",
+                "b",
+                "+"
+            ],
+            [
+                "m_1",
+                "c",
+                "/"
+            ]
+        ],
+        "answer": 5.0,
+        "text": "The schools debate team had temp_a boys and temp_b girls on it . If they were split into groups of temp_c how many groups could they make ?"
+    },
+    {
+        "new_text": "179 birds were sitting in a tree . 38 more birds flew up to the tree . How many birds were there altogether in the tree ?",
+        "num_list": [
+            179.0,
+            38.0
+        ],
+        "sQuestion": " 179 birds were sitting in a tree. 38 more birds flew up to the tree. How many birds were there altogether in the tree?",
+        "num_pos": [
+            0,
+            8
+        ],
+        "norm_mid_equ": "X = ( temp_a + temp_b )",
+        "lEquations": [
+            "X=(179.0+38.0)"
+        ],
+        "norm_op_equ": "X = temp_a temp_b <OP>",
+        "mid_op_equ": "X = ( temp_a <OP> temp_b )",
+        "norm_post_equ": "X = temp_a temp_b +",
+        "post_equ": "X = temp_a temp_b +",
+        "iIndex": 3770,
+        "new_equation": "X = ( 179.0 + 38.0 )",
+        "template_equ": "X = ( temp_a + temp_b )",
+        "lAlignments": [
+            1,
+            35
+        ],
+        "have_constant": false,
+        "type_str": "legal",
+        "equation_layer": [
+            [
+                "a",
+                "b",
+                "+"
+            ]
+        ],
+        "answer": 217.0,
+        "text": "temp_a birds were sitting in a tree . temp_b more birds flew up to the tree . How many birds were there altogether in the tree ?"
+    },
+    {
+        "new_text": "The town of Milburg has 5256 grown - ups and 2987 children . How many people live in Milburg ?",
+        "num_list": [
+            5256.0,
+            2987.0
+        ],
+        "sQuestion": "The town of Milburg has 5256 grown-ups and 2987 children. How many people live in Milburg?",
+        "num_pos": [
+            5,
+            10
+        ],
+        "norm_mid_equ": "x = temp_a + temp_b",
+        "lEquations": [
+            "5256+2987=x"
+        ],
+        "norm_op_equ": "x = temp_a temp_b <OP>",
+        "mid_op_equ": "x = temp_a <OP> temp_b",
+        "norm_post_equ": "x = temp_a temp_b +",
+        "post_equ": "x = temp_a temp_b +",
+        "iIndex": 3308,
+        "new_equation": "x = 5256 + 2987",
+        "template_equ": "x = temp_a + temp_b",
+        "have_constant": false,
+        "type_str": "legal",
+        "equation_layer": [
+            [
+                "a",
+                "b",
+                "+"
+            ]
+        ],
+        "answer": 8243.0,
+        "text": "The town of Milburg has temp_a grown - ups and temp_b children . How many people live in Milburg ?"
+    },
+    {
+        "new_text": "At Billy 's Restaurant a group with 2 adults and 5 children came in to eat . If each meal cost 3 dollars , how much was the bill ?",
+        "num_list": [
+            2.0,
+            5.0,
+            3.0
+        ],
+        "sQuestion": " At Billy's Restaurant a group with 2 adults and 5 children came in to eat. If each meal cost 3 dollars, how much was the bill? ",
+        "num_pos": [
+            7,
+            10,
+            21
+        ],
+        "norm_mid_equ": "X = ( temp_c * ( temp_a + temp_b ) )",
+        "lEquations": [
+            "X=(3.0*(2.0+5.0))"
+        ],
+        "norm_op_equ": "X = temp_c temp_a temp_b <OP> <OP>",
+        "mid_op_equ": "X = ( temp_c <OP> ( temp_a <OP> temp_b ) )",
+        "norm_post_equ": "X = temp_c temp_a temp_b + *",
+        "post_equ": "X = temp_c temp_a temp_b + *",
+        "iIndex": 2458,
+        "new_equation": "X = ( 3.0 * ( 2.0 + 5.0 ) )",
+        "template_equ": "X = ( temp_c * ( temp_a + temp_b ) )",
+        "lAlignments": [
+            94,
+            36,
+            49
+        ],
+        "have_constant": false,
+        "type_str": "legal",
+        "equation_layer": [
+            [
+                "a",
+                "b",
+                "+"
+            ],
+            [
+                "m_1",
+                "c",
+                "*"
+            ]
+        ],
+        "answer": 21.0,
+        "text": "At Billy 's Restaurant a group with temp_a adults and temp_b children came in to eat . If each meal cost temp_c dollars , how much was the bill ?"
+    },
+    {
+        "new_text": "Paul made 3 dollars mowing lawns and 3 dollars weed eating . If he only spent 3 dollar a week , how long would the money last him ?",
+        "num_list": [
+            3.0,
+            3.0,
+            3.0
+        ],
+        "sQuestion": " Paul made 3 dollars mowing lawns and 3 dollars weed eating. If he only spent 3 dollar a week, how long would the money last him? ",
+        "num_pos": [
+            2,
+            7,
+            16
+        ],
+        "norm_mid_equ": "X = ( ( temp_a + temp_b ) / temp_c )",
+        "lEquations": [
+            "X=((3.0+3.0)/3.0)"
+        ],
+        "norm_op_equ": "X = temp_a temp_b <OP> temp_c <OP>",
+        "mid_op_equ": "X = ( ( temp_a <OP> temp_b ) <OP> temp_c )",
+        "norm_post_equ": "X = temp_a temp_b + temp_c /",
+        "post_equ": "X = temp_a temp_b + temp_c /",
+        "iIndex": 2611,
+        "new_equation": "X = ( ( 3.0 + 3.0 ) / 3.0 )",
+        "template_equ": "X = ( ( temp_a + temp_b ) / temp_c )",
+        "lAlignments": [
+            11,
+            38,
+            78
+        ],
+        "have_constant": false,
+        "type_str": "legal",
+        "equation_layer": [
+            [
+                "a",
+                "b",
+                "+"
+            ],
+            [
+                "m_1",
+                "c",
+                "/"
+            ]
+        ],
+        "answer": 2.0,
+        "text": "Paul made temp_a dollars mowing lawns and temp_b dollars weed eating . If he only spent temp_c dollar a week , how long would the money last him ?"
+    },
+    {
+        "new_text": "Marilyn starts with 51 bottle caps . She shares 36 with Nancy . How many bottle caps does Marilyn end with ?",
+        "num_list": [
+            51.0,
+            36.0
+        ],
+        "sQuestion": "Marilyn starts with 51 bottle caps. She shares 36 with Nancy. How many bottle caps does Marilyn end with?",
+        "num_pos": [
+            3,
+            9
+        ],
+        "norm_mid_equ": "X = ( temp_a - temp_b )",
+        "lEquations": [
+            "X=(51.0-36.0)"
+        ],
+        "norm_op_equ": "X = temp_a temp_b <OP>",
+        "mid_op_equ": "X = ( temp_a <OP> temp_b )",
+        "norm_post_equ": "X = temp_a temp_b -",
+        "post_equ": "X = temp_a temp_b -",
+        "iIndex": 3549,
+        "new_equation": "X = ( 51.0 - 36.0 )",
+        "template_equ": "X = ( temp_a - temp_b )",
+        "lAlignments": [
+            20,
+            47
+        ],
+        "have_constant": false,
+        "type_str": "legal",
+        "equation_layer": [
+            [
+                "a",
+                "b",
+                "-"
+            ]
+        ],
+        "answer": 15.0,
+        "text": "Marilyn starts with temp_a bottle caps . She shares temp_b with Nancy . How many bottle caps does Marilyn end with ?"
+    },
+    {
+        "new_text": "Juan ran 80 miles at 10 miles per hour . How long did Juan run ?",
+        "num_list": [
+            80.0,
+            10.0
+        ],
+        "sQuestion": "Juan ran 80 miles at 10 miles per hour. How long did Juan run?",
+        "num_pos": [
+            2,
+            5
+        ],
+        "norm_mid_equ": "X = ( temp_a / temp_b )",
+        "lEquations": [
+            "X=(80.0/10.0)"
+        ],
+        "norm_op_equ": "X = temp_a temp_b <OP>",
+        "mid_op_equ": "X = ( temp_a <OP> temp_b )",
+        "norm_post_equ": "X = temp_a temp_b /",
+        "post_equ": "X = temp_a temp_b /",
+        "iIndex": 3630,
+        "new_equation": "X = ( 80.0 / 10.0 )",
+        "template_equ": "X = ( temp_a / temp_b )",
+        "lAlignments": [
+            9,
+            21
+        ],
+        "have_constant": false,
+        "type_str": "legal",
+        "equation_layer": [
+            [
+                "a",
+                "b",
+                "/"
+            ]
+        ],
+        "answer": 8.0,
+        "text": "Juan ran temp_a miles at temp_b miles per hour . How long did Juan run ?"
+    },
+    {
+        "new_text": "Olivia uploaded 5 pictures from her phone and 35 from her camera to facebook . If she sorted the pics into 8 different albums with the same amount of pics in each album , how many pictures were in each of the albums ?",
+        "num_list": [
+            5.0,
+            35.0,
+            8.0
+        ],
+        "sQuestion": " Olivia uploaded 5 pictures from her phone and 35 from her camera to facebook. If she sorted the pics into 8 different albums with the same amount of pics in each album, how many pictures were in each of the albums? ",
+        "num_pos": [
+            2,
+            8,
+            21
+        ],
+        "norm_mid_equ": "X = ( ( temp_a + temp_b ) / temp_c )",
+        "lEquations": [
+            "X=((5.0+35.0)/8.0)"
+        ],
+        "norm_op_equ": "X = temp_a temp_b <OP> temp_c <OP>",
+        "mid_op_equ": "X = ( ( temp_a <OP> temp_b ) <OP> temp_c )",
+        "norm_post_equ": "X = temp_a temp_b + temp_c /",
+        "post_equ": "X = temp_a temp_b + temp_c /",
+        "iIndex": 2587,
+        "new_equation": "X = ( ( 5.0 + 35.0 ) / 8.0 )",
+        "template_equ": "X = ( ( temp_a + temp_b ) / temp_c )",
+        "lAlignments": [
+            17,
+            47,
+            107
+        ],
+        "have_constant": false,
+        "type_str": "legal",
+        "equation_layer": [
+            [
+                "a",
+                "b",
+                "+"
+            ],
+            [
+                "m_1",
+                "c",
+                "/"
+            ]
+        ],
+        "answer": 5.0,
+        "text": "Olivia uploaded temp_a pictures from her phone and temp_b from her camera to facebook . If she sorted the pics into temp_c different albums with the same amount of pics in each album , how many pictures were in each of the albums ?"
+    },
+    {
+        "new_text": "Jane buys an apple for $ 0.75 and pays with a $ 5.00 bill . How much change will she get ?",
+        "num_list": [
+            0.75,
+            5.0
+        ],
+        "sQuestion": " Jane buys an apple for $0.75 and pays with a $5.00 bill. How much change will she get?",
+        "num_pos": [
+            6,
+            12
+        ],
+        "norm_mid_equ": "X = ( temp_b - temp_a )",
+        "lEquations": [
+            "X=(5.0-0.75)"
+        ],
+        "norm_op_equ": "X = temp_b temp_a <OP>",
+        "mid_op_equ": "X = ( temp_b <OP> temp_a )",
+        "norm_post_equ": "X = temp_b temp_a -",
+        "post_equ": "X = temp_b temp_a -",
+        "iIndex": 3911,
+        "new_equation": "X = ( 5.0 - 0.75 )",
+        "template_equ": "X = ( temp_b - temp_a )",
+        "lAlignments": [
+            47,
+            25
+        ],
+        "have_constant": false,
+        "type_str": "legal",
+        "equation_layer": [
+            [
+                "a",
+                "b",
+                "-_rev"
+            ]
+        ],
+        "answer": 4.25,
+        "text": "Jane buys an apple for $ temp_a and pays with a $ temp_b bill . How much change will she get ?"
+    },
+    {
+        "new_text": "Mike had 34 peaches at his roadside fruit dish . He went to the orchard and picked peaches to stock up . There are now 86 peaches . how many did he pick ?",
+        "num_list": [
+            34.0,
+            86.0
+        ],
+        "sQuestion": "Mike had 34 peaches at his roadside fruit dish . He went to the orchard and picked peaches to stock up . There are now 86 peaches . how many did he pick ? ",
+        "num_pos": [
+            2,
+            25
+        ],
+        "norm_mid_equ": "X = temp_b - temp_a",
+        "lEquations": [
+            "X = 86 - 34"
+        ],
+        "norm_op_equ": "X = temp_b temp_a <OP>",
+        "mid_op_equ": "X = temp_b <OP> temp_a",
+        "norm_post_equ": "X = temp_b temp_a -",
+        "post_equ": "X = temp_b temp_a -",
+        "iIndex": 5,
+        "new_equation": "X = 86 - 34",
+        "template_equ": "X = temp_b - temp_a",
+        "have_constant": false,
+        "type_str": "legal",
+        "equation_layer": [
+            [
+                "a",
+                "b",
+                "-_rev"
+            ]
+        ],
+        "answer": "52",
+        "text": "Mike had temp_a peaches at his roadside fruit dish . He went to the orchard and picked peaches to stock up . There are now temp_b peaches . how many did he pick ?"
+    },
+    {
+        "new_text": "Janet was playing a video game and had 47 lives . In a hard part of the game she lost 23 lives . If she got 46 more lives in the next level , how many lives would she have ?",
+        "num_list": [
+            47.0,
+            23.0,
+            46.0
+        ],
+        "sQuestion": " Janet was playing a video game and had 47 lives. In a hard part of the game she lost 23 lives. If she got 46 more lives in the next level, how many lives would she have? ",
+        "num_pos": [
+            8,
+            20,
+            26
+        ],
+        "norm_mid_equ": "X = ( ( temp_a + temp_c ) - temp_b )",
+        "lEquations": [
+            "X=((47.0+46.0)-23.0)"
+        ],
+        "norm_op_equ": "X = temp_a temp_c <OP> temp_b <OP>",
+        "mid_op_equ": "X = ( ( temp_a <OP> temp_c ) <OP> temp_b )",
+        "norm_post_equ": "X = temp_a temp_c + temp_b -",
+        "post_equ": "X = temp_a temp_c + temp_b -",
+        "iIndex": 2407,
+        "new_equation": "X = ( ( 47.0 + 46.0 ) - 23.0 )",
+        "template_equ": "X = ( ( temp_a + temp_c ) - temp_b )",
+        "lAlignments": [
+            40,
+            107,
+            86
+        ],
+        "have_constant": false,
+        "type_str": "legal",
+        "equation_layer": [
+            [
+                "a",
+                "c",
+                "+"
+            ],
+            [
+                "m_1",
+                "b",
+                "-"
+            ]
+        ],
+        "answer": 70.0,
+        "text": "Janet was playing a video game and had temp_a lives . In a hard part of the game she lost temp_b lives . If she got temp_c more lives in the next level , how many lives would she have ?"
+    },
+    {
+        "new_text": "At the fair Adam bought 10 tickets . After riding the ferris wheel he had 3 tickets left . If each ticket cost 9 dollars , how much money did Adam spend riding the ferris wheel ?",
+        "num_list": [
+            10.0,
+            3.0,
+            9.0
+        ],
+        "sQuestion": " At the fair Adam bought 10 tickets. After riding the ferris wheel he had 3 tickets left. If each ticket cost 9 dollars, how much money did Adam spend riding the ferris wheel? ",
+        "num_pos": [
+            5,
+            15,
+            23
+        ],
+        "norm_mid_equ": "X = ( temp_c * ( temp_a - temp_b ) )",
+        "lEquations": [
+            "X=(9.0*(10.0-3.0))"
+        ],
+        "norm_op_equ": "X = temp_c temp_a temp_b <OP> <OP>",
+        "mid_op_equ": "X = ( temp_c <OP> ( temp_a <OP> temp_b ) )",
+        "norm_post_equ": "X = temp_c temp_a temp_b - *",
+        "post_equ": "X = temp_c temp_a temp_b - *",
+        "iIndex": 2735,
+        "new_equation": "X = ( 9.0 * ( 10.0 - 3.0 ) )",
+        "template_equ": "X = ( temp_c * ( temp_a - temp_b ) )",
+        "lAlignments": [
+            110,
+            25,
+            74
+        ],
+        "have_constant": false,
+        "type_str": "legal",
+        "equation_layer": [
+            [
+                "a",
+                "b",
+                "-"
+            ],
+            [
+                "m_1",
+                "c",
+                "*"
+            ]
+        ],
+        "answer": 63.0,
+        "text": "At the fair Adam bought temp_a tickets . After riding the ferris wheel he had temp_b tickets left . If each ticket cost temp_c dollars , how much money did Adam spend riding the ferris wheel ?"
+    },
+    {
+        "new_text": "A pet store had 56 puppies . In one day they sold 24 of them and put the rest into cages with 4 in each cage . How many cages did they use ?",
+        "num_list": [
+            56.0,
+            24.0,
+            4.0
+        ],
+        "sQuestion": " A pet store had 56 puppies. In one day they sold 24 of them and put the rest into cages with 4 in each cage. How many cages did they use? ",
+        "num_pos": [
+            4,
+            12,
+            22
+        ],
+        "norm_mid_equ": "X = ( ( temp_a - temp_b ) / temp_c )",
+        "lEquations": [
+            "X=((56.0-24.0)/4.0)"
+        ],
+        "norm_op_equ": "X = temp_a temp_b <OP> temp_c <OP>",
+        "mid_op_equ": "X = ( ( temp_a <OP> temp_b ) <OP> temp_c )",
+        "norm_post_equ": "X = temp_a temp_b - temp_c /",
+        "post_equ": "X = temp_a temp_b - temp_c /",
+        "iIndex": 2831,
+        "new_equation": "X = ( ( 56.0 - 24.0 ) / 4.0 )",
+        "template_equ": "X = ( ( temp_a - temp_b ) / temp_c )",
+        "lAlignments": [
+            17,
+            50,
+            94
+        ],
+        "have_constant": false,
+        "type_str": "legal",
+        "equation_layer": [
+            [
+                "a",
+                "b",
+                "-"
+            ],
+            [
+                "m_1",
+                "c",
+                "/"
+            ]
+        ],
+        "answer": 8.0,
+        "text": "A pet store had temp_a puppies . In one day they sold temp_b of them and put the rest into cages with temp_c in each cage . How many cages did they use ?"
+    },
+    {
+        "new_text": "Joan decided to sell all of her old books . She gathered up 33 books to sell . She sold 26 books in a yard sale . How many books does Joan now have ?",
+        "num_list": [
+            33.0,
+            26.0
+        ],
+        "sQuestion": "Joan decided to sell all of her old books. She gathered up 33 books to sell. She sold 26 books in a yard sale. How many books does Joan now have ?",
+        "num_pos": [
+            13,
+            20
+        ],
+        "norm_mid_equ": "x = temp_a - temp_b",
+        "lEquations": [
+            "33-26=x"
+        ],
+        "norm_op_equ": "x = temp_a temp_b <OP>",
+        "mid_op_equ": "x = temp_a <OP> temp_b",
+        "norm_post_equ": "x = temp_a temp_b -",
+        "post_equ": "x = temp_a temp_b -",
+        "iIndex": 3047,
+        "new_equation": "x = 33 - 26",
+        "template_equ": "x = temp_a - temp_b",
+        "have_constant": false,
+        "type_str": "legal",
+        "equation_layer": [
+            [
+                "a",
+                "b",
+                "-"
+            ]
+        ],
+        "answer": 7.0,
+        "text": "Joan decided to sell all of her old books . She gathered up temp_a books to sell . She sold temp_b books in a yard sale . How many books does Joan now have ?"
+    },
+    {
+        "new_text": "On Saturday , Sara spent $ 10.62 each on 2 tickets to a movie theater . Sara also rented a movie for $ 1.59 , and bought a movie for $ 13.95 . How much money in total did Sara spend on movies ?",
+        "num_list": [
+            10.62,
+            2.0,
+            1.59,
+            13.95
+        ],
+        "sQuestion": "On Saturday, Sara spent $10.62 each on 2 tickets to a movie theater. Sara also rented a movie for $1.59, and bought a movie for $13.95. How much money in total did Sara spend on movies?",
+        "num_pos": [
+            6,
+            9,
+            23,
+            31
+        ],
+        "norm_mid_equ": "x = ( temp_a * temp_b ) + temp_c + temp_d",
+        "lEquations": [
+            "(2*10.62)+1.59+13.59=x"
+        ],
+        "norm_op_equ": "x = temp_a temp_b <OP> temp_c <OP> temp_d <OP>",
+        "mid_op_equ": "x = ( temp_a <OP> temp_b ) <OP> temp_c <OP> temp_d",
+        "norm_post_equ": "x = temp_a temp_b * temp_c + temp_d +",
+        "post_equ": "x = temp_b temp_a * temp_c + temp_d +",
+        "iIndex": 3100,
+        "new_equation": "x = ( 2 * 10.62 ) + 1.59 + 13.95",
+        "template_equ": "x = ( temp_b * temp_a ) + temp_c + temp_d",
+        "have_constant": false,
+        "type_str": "legal",
+        "equation_layer": [
+            [
+                "a",
+                "b",
+                "*"
+            ],
+            [
+                "m_1",
+                "c",
+                "+"
+            ],
+            [
+                "m_2",
+                "d",
+                "+"
+            ]
+        ],
+        "answer": 36.78,
+        "text": "On Saturday , Sara spent $ temp_a each on temp_b tickets to a movie theater . Sara also rented a movie for $ temp_c , and bought a movie for $ temp_d . How much money in total did Sara spend on movies ?"
+    },
+    {
+        "new_text": "Sam had 98 pennies in his bank . He spent 93 of his pennies . How many pennies does he have now ?",
+        "num_list": [
+            98.0,
+            93.0
+        ],
+        "sQuestion": "Sam had 98 pennies in his bank . He spent 93 of his pennies . How many pennies does he have now ? ",
+        "num_pos": [
+            2,
+            10
+        ],
+        "norm_mid_equ": "X = temp_a - temp_b",
+        "lEquations": [
+            "X = 98 - 93"
+        ],
+        "norm_op_equ": "X = temp_a temp_b <OP>",
+        "mid_op_equ": "X = temp_a <OP> temp_b",
+        "norm_post_equ": "X = temp_a temp_b -",
+        "post_equ": "X = temp_a temp_b -",
+        "iIndex": 84,
+        "new_equation": "X = 98 - 93",
+        "template_equ": "X = temp_a - temp_b",
+        "have_constant": false,
+        "type_str": "legal",
+        "equation_layer": [
+            [
+                "a",
+                "b",
+                "-"
+            ]
+        ],
+        "answer": "5",
+        "text": "Sam had temp_a pennies in his bank . He spent temp_b of his pennies . How many pennies does he have now ?"
+    }
+]
